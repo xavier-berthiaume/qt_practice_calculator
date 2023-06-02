@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>585</width>
-    <height>276</height>
+    <width>586</width>
+    <height>266</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,7 +16,7 @@
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout">
     <item row="2" column="0">
-     <widget class="QPushButton" name="pushButton_6">
+     <widget class="QPushButton" name="button_delmem">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
         <horstretch>0</horstretch>
@@ -37,12 +37,12 @@ QPushButton:pressed {
 }</string>
       </property>
       <property name="text">
-       <string>PushButton</string>
+       <string>M-</string>
       </property>
      </widget>
     </item>
     <item row="1" column="0">
-     <widget class="QPushButton" name="pushButton">
+     <widget class="QPushButton" name="button_addmem">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
         <horstretch>0</horstretch>
@@ -63,12 +63,12 @@ QPushButton:pressed {
 }</string>
       </property>
       <property name="text">
-       <string>PushButton</string>
+       <string>M+</string>
       </property>
      </widget>
     </item>
     <item row="1" column="1">
-     <widget class="QPushButton" name="pushButton_2">
+     <widget class="QPushButton" name="button_times">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
         <horstretch>0</horstretch>
@@ -89,12 +89,12 @@ QPushButton:pressed {
 }</string>
       </property>
       <property name="text">
-       <string>PushButton</string>
+       <string>*</string>
       </property>
      </widget>
     </item>
     <item row="1" column="3">
-     <widget class="QPushButton" name="pushButton_4">
+     <widget class="QPushButton" name="button_8">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
         <horstretch>0</horstretch>
@@ -115,12 +115,12 @@ QPushButton:pressed {
 }</string>
       </property>
       <property name="text">
-       <string>PushButton</string>
+       <string>8</string>
       </property>
      </widget>
     </item>
     <item row="4" column="0">
-     <widget class="QPushButton" name="pushButton_8">
+     <widget class="QPushButton" name="button_clear">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
         <horstretch>0</horstretch>
@@ -141,12 +141,12 @@ QPushButton:pressed {
 }</string>
       </property>
       <property name="text">
-       <string>PushButton</string>
+       <string>AC</string>
       </property>
      </widget>
     </item>
     <item row="1" column="4">
-     <widget class="QPushButton" name="pushButton_5">
+     <widget class="QPushButton" name="button_9">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
         <horstretch>0</horstretch>
@@ -167,12 +167,12 @@ QPushButton:pressed {
 }</string>
       </property>
       <property name="text">
-       <string>PushButton</string>
+       <string>9</string>
       </property>
      </widget>
     </item>
     <item row="1" column="2">
-     <widget class="QPushButton" name="pushButton_3">
+     <widget class="QPushButton" name="button_7">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
         <horstretch>0</horstretch>
@@ -193,12 +193,12 @@ QPushButton:pressed {
 }</string>
       </property>
       <property name="text">
-       <string>PushButton</string>
+       <string>7</string>
       </property>
      </widget>
     </item>
     <item row="3" column="0">
-     <widget class="QPushButton" name="pushButton_7">
+     <widget class="QPushButton" name="button_mem">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
         <horstretch>0</horstretch>
@@ -219,12 +219,12 @@ QPushButton:pressed {
 }</string>
       </property>
       <property name="text">
-       <string>PushButton</string>
+       <string>M</string>
       </property>
      </widget>
     </item>
     <item row="2" column="1">
-     <widget class="QPushButton" name="pushButton_9">
+     <widget class="QPushButton" name="button_divide">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
         <horstretch>0</horstretch>
@@ -245,12 +245,12 @@ QPushButton:pressed {
 }</string>
       </property>
       <property name="text">
-       <string>PushButton</string>
+       <string>/</string>
       </property>
      </widget>
     </item>
     <item row="2" column="2">
-     <widget class="QPushButton" name="pushButton_10">
+     <widget class="QPushButton" name="button_4">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
         <horstretch>0</horstretch>
@@ -271,12 +271,12 @@ QPushButton:pressed {
 }</string>
       </property>
       <property name="text">
-       <string>PushButton</string>
+       <string>4</string>
       </property>
      </widget>
     </item>
     <item row="2" column="3">
-     <widget class="QPushButton" name="pushButton_11">
+     <widget class="QPushButton" name="button_5">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
         <horstretch>0</horstretch>
@@ -297,12 +297,12 @@ QPushButton:pressed {
 }</string>
       </property>
       <property name="text">
-       <string>PushButton</string>
+       <string>5</string>
       </property>
      </widget>
     </item>
     <item row="2" column="4">
-     <widget class="QPushButton" name="pushButton_12">
+     <widget class="QPushButton" name="button_6">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
         <horstretch>0</horstretch>
@@ -323,12 +323,12 @@ QPushButton:pressed {
 }</string>
       </property>
       <property name="text">
-       <string>PushButton</string>
+       <string>6</string>
       </property>
      </widget>
     </item>
     <item row="3" column="1">
-     <widget class="QPushButton" name="pushButton_13">
+     <widget class="QPushButton" name="button_add">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
         <horstretch>0</horstretch>
@@ -349,12 +349,12 @@ QPushButton:pressed {
 }</string>
       </property>
       <property name="text">
-       <string>PushButton</string>
+       <string>+</string>
       </property>
      </widget>
     </item>
     <item row="4" column="1">
-     <widget class="QPushButton" name="pushButton_14">
+     <widget class="QPushButton" name="button_substract">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
         <horstretch>0</horstretch>
@@ -375,12 +375,12 @@ QPushButton:pressed {
 }</string>
       </property>
       <property name="text">
-       <string>PushButton</string>
+       <string>-</string>
       </property>
      </widget>
     </item>
     <item row="3" column="2">
-     <widget class="QPushButton" name="pushButton_15">
+     <widget class="QPushButton" name="button_1">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
         <horstretch>0</horstretch>
@@ -401,12 +401,12 @@ QPushButton:pressed {
 }</string>
       </property>
       <property name="text">
-       <string>PushButton</string>
+       <string>1</string>
       </property>
      </widget>
     </item>
     <item row="4" column="2">
-     <widget class="QPushButton" name="pushButton_16">
+     <widget class="QPushButton" name="button_sign">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
         <horstretch>0</horstretch>
@@ -427,12 +427,12 @@ QPushButton:pressed {
 }</string>
       </property>
       <property name="text">
-       <string>PushButton</string>
+       <string>+/-</string>
       </property>
      </widget>
     </item>
     <item row="3" column="3">
-     <widget class="QPushButton" name="pushButton_17">
+     <widget class="QPushButton" name="button_2">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
         <horstretch>0</horstretch>
@@ -453,12 +453,12 @@ QPushButton:pressed {
 }</string>
       </property>
       <property name="text">
-       <string>PushButton</string>
+       <string>2</string>
       </property>
      </widget>
     </item>
     <item row="4" column="3">
-     <widget class="QPushButton" name="pushButton_18">
+     <widget class="QPushButton" name="button_0">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
         <horstretch>0</horstretch>
@@ -479,12 +479,12 @@ QPushButton:pressed {
 }</string>
       </property>
       <property name="text">
-       <string>PushButton</string>
+       <string>0</string>
       </property>
      </widget>
     </item>
     <item row="4" column="4">
-     <widget class="QPushButton" name="pushButton_19">
+     <widget class="QPushButton" name="button_equals">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
         <horstretch>0</horstretch>
@@ -505,12 +505,12 @@ QPushButton:pressed {
 }</string>
       </property>
       <property name="text">
-       <string>PushButton</string>
+       <string>=</string>
       </property>
      </widget>
     </item>
     <item row="3" column="4">
-     <widget class="QPushButton" name="pushButton_20">
+     <widget class="QPushButton" name="button_3">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
         <horstretch>0</horstretch>
@@ -531,7 +531,7 @@ QPushButton:pressed {
 }</string>
       </property>
       <property name="text">
-       <string>PushButton</string>
+       <string>3</string>
       </property>
      </widget>
     </item>
@@ -573,7 +573,7 @@ QPushButton:pressed {
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>585</width>
+     <width>586</width>
      <height>22</height>
     </rect>
    </property>
