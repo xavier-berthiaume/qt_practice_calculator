@@ -21,10 +21,12 @@ private:
 private slots:
     void numPressed();
 
-    void operatorPress();
+    void operatorPressed();
 
     void changeSign();
 
-    void equalsPress();
+    void equalsPressed();
+
+    void clearPressed();
 };
 #endif // MAINWINDOW_H
